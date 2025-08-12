@@ -18,7 +18,7 @@ app.post('/',(req,res)=>{
     res.send(result).status(200);
 });
 app.get('/',(req,res)=>{
-    res.send("Server Running");
+    res.send("Server Runninggg");
 });
 app.listen(port,()=>{
 });
