@@ -17,8 +17,10 @@ app.post('/',(req,res)=>{
     let result = {"Name" : "Ansh","Email" : "ansh0371.be23@chitkara.edu.in","RollNo.":2310990371,alpha,numeric};
     res.send(result).status(200);
 });
+app.get('/',(req,res)=>{
+    console.log("Server Running");
+});
 app.listen(port,()=>{
-    // console.log("Ansh Lodu");
 });
 
 function isChar(v) {
